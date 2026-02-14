@@ -1,0 +1,16 @@
+[tools]
+"cargo:cookcli" = "0.19.3"
+"cargo:toml-cli" = "latest"
+jq = "latest"
+
+[tasks.consume]
+description = "Verwijdert een ingredient uit de pantry"
+usage = '''
+arg "<ingredient>" help="Ingredient om te verbruiken"
+arg "<amount>" help="Hoeveelheid om te verbruiken"
+'''
+run = '''
+echo "Ik verwijder het item ${usage_ingredient?} uit de pantry".
+location=$(toml get config/pantry.conf '.' | jq -r 'first(paths(objects | select(has("eieren")))) | .[0]')
+echo $location
+'''
