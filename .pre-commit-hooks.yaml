@@ -1,0 +1,5 @@
+- id: grep
+  name: grep
+  description: find lines in a file
+  entry: grep
+  language: python
