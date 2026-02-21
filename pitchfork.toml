@@ -1,3 +1,0 @@
-[daemons.cook]
-run = "cook server"
-auto = ["start"]
