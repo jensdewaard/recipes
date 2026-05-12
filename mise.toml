@@ -3,6 +3,8 @@
 "cargo:toml-cli" = "latest"
 jq = "latest"
 pre-commit = "4.5.1"
+python = "latest"
+uv = "latest"
 
 [tasks.consume]
 description = "Verwijdert een ingredient uit de pantry"

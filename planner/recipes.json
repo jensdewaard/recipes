@@ -1,0 +1,34 @@
+[
+  {
+    "id": "chicken_stir_fry",
+    "name": "Chicken Stir Fry",
+    "calories": 650,
+    "tags": ["chicken", "high_protein"],
+    "meal_type": ["dinner"],
+    "prep_time": 30
+  },
+  {
+    "id": "vegetarian_chili",
+    "name": "Vegetarian Chili",
+    "calories": 720,
+    "tags": ["vegetarian", "beans"],
+    "meal_type": ["dinner"],
+    "prep_time": 45
+  },
+  {
+    "id": "salmon_with_rice",
+    "name": "Salmon with Rice",
+    "calories": 800,
+    "tags": ["fish", "omega3"],
+    "meal_type": ["dinner"],
+    "prep_time": 35
+  },
+  {
+          "id": "tilapia_filet",
+          "name": "Tilapia Filet",
+          "calories": 800,
+          "tags": ["fish"],
+          "meal_type": ["dinner"],
+          "prep_time": 25
+  }
+]

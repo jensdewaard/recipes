@@ -1,0 +1,10 @@
+{
+  "days": 7,
+  "meals_per_day": 1,
+  "max_repeats_per_recipe": 2,
+  "calories": {
+    "min_per_day": 0,
+    "max_per_day": 1800
+  },
+  "no_consecutive_duplicates": false
+}
